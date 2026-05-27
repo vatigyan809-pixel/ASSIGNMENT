@@ -1,13 +1,11 @@
 #include<stdio.h>
-int main()
-{
-float base,hight,area;
-printf("enter base:");
-scanf("%f",&base);
-printf("enter hight:");
-scanf("%f",&hight);
-
-area = 0.5*base*hight; 
-printf("area of trangle = %.2f\n",area);
-return 0;
-} 
+int main(){
+    int i,n;
+    printf("Enter the number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        printf("%d*%d=%d",n*i);
+    }
+    return 0;
+}
